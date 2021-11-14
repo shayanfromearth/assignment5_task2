@@ -1,0 +1,20 @@
+---
+title: "Group 36 CA pollution burden"
+author: "Shayan Kaveh, Sachi Shiroma"
+date: "11/14/2021"
+output: html_document
+---
+## Set Up
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+## Read in the data
+```{r}
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+```
+
