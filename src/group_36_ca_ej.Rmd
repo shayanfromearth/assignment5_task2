@@ -23,10 +23,10 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   geom_hex() +
   labs(x = "Percent of White Population",
        y = "Cal Enviro Screen Pollution Score",
-       title = "White Population Burden Score") +
+       title = "White Population Burden Score",
+       caption = "Fig. 1: White population burden score as defined by CalEnviroScreen's pollution scores. There is a \n negative correlation between the percentage of white population and pollution scores. \n This means that the larger percent of a community being white tends to mean the community \n will also have less of a pollution burden, according to the CalEnviroScreen Pollution Burden test.") +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_fill_gradient(low = "magenta", high = "aquamarine")+
-  theme_minimal()
-
+  theme_minimal() 
 ```
 
