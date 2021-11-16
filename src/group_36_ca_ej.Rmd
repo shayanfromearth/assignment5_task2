@@ -30,3 +30,5 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   theme_minimal() 
 ```
 
+# Citation 
+CalEnviroScreen 3.0. 2017. A Tool for Advancing Environmental Justice.  Retrieved from https://caleja.org/wp-content/uploads/2015/09/CES3.0-5.pdf
